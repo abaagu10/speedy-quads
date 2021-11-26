@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 6fr 4fr;
+    grid-template-areas: 
+    "sidebar main sidebar-left";
+
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: rgb(219, 231, 236);
+}
+.main{
+    grid-area: main;
+}
+.sidebar-left{
+    grid-area: sidebar-left;   
+}
+.music-icon img{
+    height: 50px;
+    margin-left: 30%;
+    margin-top: 20px;
+
+}
+.facebook img{
+    height: 10px;
+
+}
+.instagram img{
+    height: 10px;
+
+}
+.twitter img{
+    height: 10px;
+    justify-self: flex-end;
+
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 500px;
+    margin-left: 40%;
+}
+.main ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.main ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.roller-skate img{
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 30%;
+}
+
+.main, .sidebar-left, .check{
+    background-color: rgb(36, 118, 200);
+    color: white;
+}
+.quads{
+    font-size: 75px;
+    margin-top: -70px;
+    margin-left: 115px;
+}
+span{
+    margin: 80px;
+}
+.shop a img{
+    height: 30px;
+    margin-top: 20px;
+    
+}
+.shop{
+    margin-left: 400px;
+}
+.stars img{
+    height: 15px;
+    padding-left: 20px;
+    margin-top: 5px;
+
+}
+.advert{
+    display: flex;   
+}
+
+.color-display {
+    display: flex;
+    flex-direction: row;
+}
+.color-display .dot{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: -20px;
+    margin-right: 5px;
+}
+.color-display .dot1{
+    border: 1px solid white;
+    background-color: rgb(36, 118, 200);
+}
+.color-display .dot2{
+    border: 1px solid white;
+    background-color: rgb(200, 36, 91);
+}
+.color-display .dot3{
+    border: 1px solid white;
+    background-color: rgb(156, 200, 36);
+}
+.color-display .dot4{
+    border: 1px solid white;
+    background-color: whitesmoke;
+}
+.color-changer{
+    margin-top: 50px;
+}
+form select{
+    border: 1px solid white;
+    width: 200px;
+    height: 40px;
+    background: rgb(36, 118, 200);
+    color: white;
+    
+}
+button{
+    margin-top: 30px;
+    width: 200px;
+    height: 30px;
+    background: rgb(200, 36, 91);
+    color: white;
+    border: none;
+}
